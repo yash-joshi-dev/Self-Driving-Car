@@ -1,0 +1,6 @@
+numpy
+opencv-python
+smbus
+tflite-runtime
+blynk-library-python
+python-dotenv
