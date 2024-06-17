@@ -5,7 +5,7 @@ import sys
 import os
 
 # must run below 2 lines to access provided functions to manipulate the motor for this particular car:
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+sys.path.append(os.path.join(os.path.dirname(__file__), 'providedCarModules'))
 from Motor import *
 
 # load the model

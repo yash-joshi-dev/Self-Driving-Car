@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # must run the below 2 lines to access provided functions to manipulate the motor for this particular car:
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+sys.path.append(os.path.join(os.path.dirname(__file__), 'providedCarModules'))
 from Motor import *
 
 # init the camera
